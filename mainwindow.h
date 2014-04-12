@@ -19,7 +19,9 @@ public:
 
 private slots:
     void on_login_button_clicked();
-    //void finishedSlot(QNetworkReply *reply);
+    void finishedSlot(QNetworkReply *reply);
+
+    void on_exit_button_clicked();
 
 private:
     Ui::MainWindow *ui;
